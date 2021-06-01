@@ -1,3 +1,129 @@
 *{
     margin: 0;padding: 0;
+    box-sizing: border-box;
 }
+a{
+    color: #000;
+    text-decoration: none;
+}
+html{
+    background: #eeeeee;
+}
+/* article1 */
+.article1 {
+    height: 100vh;
+    background-image: url(../img/mainimg2.jpg);
+    background-size: unset;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.article1 .main {
+    width: 50vw;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.7);
+}
+.article1 .main .title {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+.article1 .main .title h1 {
+    width: 100%;
+    font-size: 120px;
+    text-align: center;
+    font-weight: 400;
+}
+.article1 .main .sequence {
+    padding: 0 64px;
+    font-weight: 700;
+}
+.article1 .main .sequence .p1 {
+    font-size: 64px;
+}
+.article1 .main .sequence .p2 {
+    font-size: 48px;
+    margin: 16px 0;
+}
+/* //article1 */
+
+
+
+
+/* article2 */
+.article2 {
+    text-align: center;
+    padding: 100px 0;
+    color: #000000;
+}
+.article2 .article2-title{  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.article2 .article2-title h1 {
+    font-size: 120px;
+    padding: 40px 100px 20px;
+    background: #DDDDDD;
+}
+.article2 .font-m{
+    width: 50%;
+    margin: 64px auto 32px;
+    font-size: 36px;
+}
+.article2 .font-l{
+    width: 70%;
+    margin: 0 auto 64px;
+    font-size: 24px;
+}
+.article2 .font-b{
+    font-size: 16px;
+    padding: 20px 57px;
+    margin: 0 auto;
+    background: #DDDDDD;
+    display: inline-block;
+    color: #000000;
+}
+
+/* //article2 */
+
+
+/* article3 */
+.article3 {
+    text-align: center;
+    padding: 100px 0;
+    background: #000;
+    color: #ffffff;
+}
+.article3 .article3-title{   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.article3 .article3-title h1 {
+    font-size: 120px;
+    padding: 40px 100px 20px;
+    background: #444444;
+}
+.article3 .font-m{
+    width: 50%;
+    margin: 64px auto 32px;
+    font-size: 36px;
+}
+.article3 .font-l{
+    width: 70%;
+    margin: 0 auto 64px;
+    font-size: 24px;
+}
+.article3 .font-b{
+    font-size: 16px;
+    padding: 20px 57px;
+    margin: 0 auto;
+    background: #444444;
+    display: inline-block;
+    color: #ffffff;
+}
+/* //article3 */
