@@ -87,8 +87,18 @@
     </article>
     <!-- //article3 -->
 
+    <!-- js -->
+    <script src="js/jquery.min_1.12.4.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/gsap.min.js"></script>
     <script>
+        $(".content-item-desc").each(function(){
+        let txt = $(this).text();
+        let split = txt.split("").join("</span><span aria-hidden='true'>")
+            split = "<span aria-hidden='true'>" + split + "</span>";
+        $(this).html(split).attr("aria-label",txt);
+    });
     </script>
-
+    <!-- //js -->
 </body>
 </html>
